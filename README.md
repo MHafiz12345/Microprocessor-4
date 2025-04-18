@@ -78,18 +78,6 @@ The system showcases multiple core embedded concepts, including:
 * Interrupt-driven countdown and button handling
 * Multi-state control logic using a finite state machine
 
-## 📚 Build Instructions
-
-```bash
-# Compile all source files
-avr-gcc -mmcu=atmega2560 -O2 -o motor_control.elf main.c adc.c pwm.c shiftregister.c switch.c timer.c
-
-# Convert to hex file
-avr-objcopy -O ihex -R .eeprom motor_control.elf motor_control.hex
-
-# Flash to microcontroller (using avrdude)
-avrdude -p atmega2560 -c stk500v2 -P /dev/ttyACM0 -U flash:w:motor_control.hex
-```
 
 ## 🔌 Hardware Requirements
 
