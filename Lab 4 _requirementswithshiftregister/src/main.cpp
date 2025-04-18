@@ -1,10 +1,3 @@
-//----------------------------------------------------------------------//
-// Author:  Hafiz, Sofia, Fadzar, Johan, Vincent       
-// Net ID:   muhammadhafiz, fadzarar, Vliem, putriyuandari, johaniswara        
-// Date:     08 April 2025      
-// Assignment: Lab 4
-//----------------------------------------------------------------------//
-
 #include <avr/io.h>         
 #include <avr/interrupt.h>  
 #include "pwm.h"            
