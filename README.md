@@ -1,6 +1,7 @@
 # Lab 4: DC Motor Control with Potentiometer and Countdown Display
 
-![DC Motor Control with Display](https://github.com/user-attachments/assets/b11ffc76-3463-437d-8446-4eb129294faa)
+![image](https://github.com/user-attachments/assets/900630c9-67e1-45c4-a715-53171e12936b)
+
 
 ## 🔧 Overview
 
